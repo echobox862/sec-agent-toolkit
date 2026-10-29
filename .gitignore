@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 运行产物：扫描结果、生成的字典、日志
+*.log
+scan-*.csv
+scan-*.json
+dict-*.txt
+
+# 本地配置（可能含路径与凭据）
+mcp_config.local.json
+.env
+.env.*
